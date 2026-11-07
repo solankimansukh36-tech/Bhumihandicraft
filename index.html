@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Beautiful handmade crafts, thoughtfully made and easy to order on WhatsApp.">
+<title>BHUMI Handicraft — Handmade with Heart</title>
+<style>
+:root{--ink:#302b25;--muted:#786f64;--cream:#fbf7ef;--paper:#fffdf8;--rust:#a64f35;--sage:#65745c;--line:#e9dfd1;--gold:#c18b45}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif}button,input,textarea,select{font:inherit}button{cursor:pointer}.topbar{background:var(--sage);color:white;text-align:center;padding:9px 15px;font:12px Arial,sans-serif;letter-spacing:.08em}.nav{display:flex;align-items:center;justify-content:space-between;padding:20px 6%;background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}.brand{font-size:26px;font-weight:bold;letter-spacing:.04em}.brand small{display:block;font:10px Arial,sans-serif;letter-spacing:.22em;color:var(--muted);margin-top:3px}.navlinks{display:flex;gap:25px;align-items:center}.navlinks a{color:var(--ink);text-decoration:none;font:13px Arial,sans-serif}.cartbtn{border:1px solid var(--ink);background:transparent;padding:10px 15px;border-radius:30px}.hero{padding:76px 8% 70px;display:grid;grid-template-columns:1.05fr .95fr;gap:45px;align-items:center;background:#efe5d6}.eyebrow{font:11px Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--rust)}h1{font-size:clamp(42px,6vw,74px);line-height:1.02;font-weight:normal;margin:17px 0}.hero p{font:16px/1.7 Arial,sans-serif;color:#62594f;max-width:480px}.cta{display:inline-block;background:var(--rust);color:white;text-decoration:none;border:0;padding:14px 22px;border-radius:3px;font:13px Arial,sans-serif;margin-top:12px}.hero-art{min-height:360px;border-radius:48% 48% 5px 5px;background:linear-gradient(140deg,#c5a17b,#ead8bd 55%,#8b745d);display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}.hero-art:before{content:"";width:220px;height:260px;border-radius:48% 48% 12px 12px;background:repeating-linear-gradient(90deg,#a64f35 0 8px,#c77d58 8px 16px);transform:rotate(-9deg);box-shadow:20px 20px 35px #57402d55}.hero-art:after{content:"✿";position:absolute;font-size:110px;color:#f4e7d3;right:16%;top:18%;text-shadow:0 5px 20px #765}.section{padding:70px 6%}.sectionhead{text-align:center;margin-bottom:34px}.sectionhead h2{font-size:38px;font-weight:normal;margin:8px}.sectionhead p{font:14px Arial,sans-serif;color:var(--muted)}.filters{display:flex;gap:9px;justify-content:center;flex-wrap:wrap;margin-bottom:28px}.filter{border:1px solid var(--line);background:transparent;padding:9px 16px;border-radius:30px;font:12px Arial,sans-serif}.filter.active{background:var(--sage);color:white;border-color:var(--sage)}.products{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.product{background:var(--paper);border:1px solid var(--line);padding:12px;transition:.2s}.product:hover{transform:translateY(-4px);box-shadow:0 12px 25px #49351b12}.product-art{height:205px;display:flex;align-items:center;justify-content:center;font-size:75px;background:#eee2d2;overflow:hidden}.product-art img{width:100%;height:100%;object-fit:cover;display:block}.product-wa{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:10px;padding:10px 12px;background:#25D366;color:#fff;text-decoration:none;font:600 13px Arial,sans-serif;border-radius:4px}.product-wa svg{width:18px;height:18px;fill:currentColor;flex:none}.product-wa:hover{background:#1eae54}.product:nth-child(4n+2) .product-art{background:#e5e8dc}.product:nth-child(4n+3) .product-art{background:#eee0dc}.product:nth-child(4n+4) .product-art{background:#e9e3d5}.product h3{font-size:19px;font-weight:normal;margin:14px 0 5px}.product .desc{font:12px/1.5 Arial,sans-serif;color:var(--muted);min-height:36px}.price{font: bold 15px Arial,sans-serif;margin:10px 0}.product-actions{display:flex;gap:8px}.smallbtn{flex:1;padding:10px 7px;border:1px solid var(--sage);background:transparent;color:var(--sage);font:11px Arial,sans-serif}.smallbtn.primary{background:var(--sage);color:white}.stars{color:var(--gold);font:13px Arial,sans-serif}.about{background:#e9e5d9;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.about h2{font-size:40px;font-weight:normal}.about p{font:15px/1.8 Arial,sans-serif;color:#62594f}.aboutmark{font-size:100px;text-align:center;color:var(--rust)}.reviews{background:var(--paper)}.reviewgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.review{border:1px solid var(--line);padding:20px}.review p{font:14px/1.6 Arial,sans-serif;color:#5d554c}.review strong{font:13px Arial,sans-serif}.reviewform{max-width:650px;margin:35px auto 0;padding:25px;background:var(--cream);border:1px solid var(--line)}.reviewform h3{font-weight:normal;font-size:24px}.field{width:100%;padding:12px;margin:7px 0 12px;border:1px solid var(--line);background:white}.footer{background:#302b25;color:#f8f0e5;padding:42px 6%;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer p{font:13px/1.7 Arial,sans-serif;color:#d4c9bb}.modalback{position:fixed;inset:0;background:#0008;display:none;z-index:10;align-items:center;justify-content:center;padding:15px}.modalback.show{display:flex}.modal{background:var(--paper);padding:25px;max-width:480px;width:100%;max-height:90vh;overflow:auto;position:relative}.close{position:absolute;right:15px;top:12px;border:0;background:none;font-size:24px}.cartline{display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid var(--line);padding:12px 0;font:14px Arial,sans-serif}.qty button{border:1px solid var(--line);background:white;padding:3px 8px}.total{display:flex;justify-content:space-between;font:bold 16px Arial,sans-serif;margin:18px 0}.empty{font:14px Arial,sans-serif;color:var(--muted);padding:20px 0}.wa{display:block;text-align:center;background:#238b53;color:white;text-decoration:none;padding:14px;margin-top:10px;font:14px Arial,sans-serif}.detail-art{font-size:100px;text-align:center;background:#eee2d2;padding:30px}.muted{font:13px/1.6 Arial,sans-serif;color:var(--muted)}@media(max-width:900px){.products{grid-template-columns:repeat(2,1fr)}.hero{grid-template-columns:1fr}.hero-art{min-height:260px}.navlinks{gap:12px}}@media(max-width:600px){.nav{padding:15px 4%}.navlinks a{display:none}.brand{font-size:22px}.hero{padding:48px 7%}.products{grid-template-columns:1fr 1fr;gap:10px}.product-art{height:145px;font-size:55px}.product{padding:8px}.product h3{font-size:16px}.smallbtn{font-size:10px}.section{padding:50px 4%}.reviewgrid,.about{grid-template-columns:1fr}.aboutmark{display:none}}
+</style>
+<style>
+.brand-logo-img{display:block;width:min(250px,42vw);height:auto;max-height:82px;object-fit:contain;object-position:left center}
+@media(max-width:600px){.brand-logo-img{width:min(185px,48vw);max-height:64px}}
+</style>
+
+</head>
+<body>
+<div class="topbar">HANDMADE WITH LOVE · FREE SHIPPING ON ORDERS ABOVE ₹1,499</div>
+<nav class="nav">
+  <div class="brand"><img class="brand-logo-img" src="bhumi-handicraft-logo.png" alt="BHUMI-Handicraft logo"></div>
+  <div class="navlinks"><a href="#shop" id="navShop">Shop</a><a href="#story" id="navStory">Our Story</a><a href="#reviews" id="navReviews">Reviews</a><button class="cartbtn" style="padding:8px 12px" onclick="toggleLanguage()" id="langBtn">ગુજરાતી</button></div>
+  <button class="cartbtn" onclick="openCart()">Bag (<span id="cartCount">0</span>)</button>
+</nav>
+<header class="hero">
+  <div><div class="eyebrow">Small-batch · Thoughtfully made</div><h1>Made by hand.<br>Made to be loved.</h1><p>Discover one-of-a-kind handcrafted pieces that bring warmth, character and a little joy to everyday living.</p><a class="cta" href="#shop">EXPLORE THE COLLECTION</a></div>
+  <div class="hero-art" aria-label="Decorative handcrafted art illustration"></div>
+</header>
+<section class="section" id="shop">
+  <div class="sectionhead"><div class="eyebrow">The collection</div><h2>Find something special</h2><p>Each piece is made with care. Select a product to see its details.</p></div>
+  <div class="filters" id="filters"></div>
+  <div class="products" id="products"></div>
+</section>
+<section class="section about" id="story">
+  <div><div class="eyebrow">A little about us</div><h2>Crafted slowly.<br>Kept forever.</h2><p>We celebrate the beauty of handmade work — the little variations, the natural textures and the care that goes into every piece. Our collection is designed to make gifting and everyday living feel more personal.</p><a class="cta" href="#shop">SHOP HANDMADE</a></div>
+  <div class="aboutmark">✿<div style="font:13px Arial,sans-serif;letter-spacing:.18em">MADE WITH CARE</div></div>
+</section>
+<section class="section reviews" id="reviews">
+  <div class="sectionhead"><div class="eyebrow">Kind words</div><h2>Notes from our customers</h2><p>Reviews appear here after store approval.</p></div>
+  <div class="reviewgrid" id="reviewList"></div>
+  <form class="reviewform" id="reviewForm"><h3>Share your experience</h3>
+    <label class="muted">Your name</label><input class="field" id="reviewName" required maxlength="40" placeholder="Name">
+    <label class="muted">Rating</label><select class="field" id="reviewRating"><option value="5">★★★★★ — Loved it</option><option value="4">★★★★☆ — Great</option><option value="3">★★★☆☆ — Good</option><option value="2">★★☆☆☆ — Okay</option><option value="1">★☆☆☆☆ — Needs improvement</option></select>
+    <label class="muted">Your review</label><textarea class="field" id="reviewText" rows="3" required maxlength="500" placeholder="What did you think?"></textarea>
+    <button class="cta" type="submit">POST REVIEW</button><p class="muted">Bhumi store: reviews are saved in this browser only. Connect a database to share reviews across customers.</p>
+  </form>
+</section>
+<footer class="footer"><div><div class="brand">BHUMI-Handicraft</div><p>Handcrafted with heart, made for your home.</p></div><div><strong>Need help?</strong><p>Order directly on WhatsApp<br>Replace the demo number in the website settings.</p></div><div><p>© 2026 BHUMI Handcrafts<br>Made with care.</p></div></footer>
+
+<div class="modalback" id="detailModal" onclick="if(event.target===this)closeModal('detailModal')"><div class="modal"><button class="close" onclick="closeModal('detailModal')">×</button><div id="detailContent"></div></div></div>
+<div class="modalback" id="cartModal" onclick="if(event.target===this)closeModal('cartModal')"><div class="modal"><button class="close" onclick="closeModal('cartModal')">×</button><h2 style="font-weight:normal">("Your shopping bag")}</h2><div id="cartLines"></div><div class="total"><span>$("Total")</span><span id="cartTotal">₹0</span></div><input class="field" id="buyerName" placeholder="${tr("Your name (optional)","તમારું નામ (વૈકલ્પિક)")}"><input class="field" id="buyerAddress" placeholder="${tr("Delivery address (optional)","ડિલિવરીનું સરનામું (વૈકલ્પિક)")}"><a class="wa" id="checkoutLink" href="#" target="_blank" rel="noopener">${tr("ORDER ON WHATSAPP","WHATSAPP પર ઓર્ડર કરો")}</a><p class="muted">${tr("Your cart and delivery details will be included in the WhatsApp message.","તમારી ખરીદી અને ડિલિવરીની વિગતો WhatsApp સંદેશમાં મોકલવામાં આવશે.")}</p></div></div>
+<script>
+const STORE_KEY="mittikaProducts", SETTINGS_KEY="mittikaSettings", ORDERS_KEY="mittikaOrders", REVIEWS_KEY="mittikaReviews";
+const storeSettings=JSON.parse(localStorage.getItem(SETTINGS_KEY)||"{}");
+const WHATSAPP_NUMBER = storeSettings.whatsapp || "919876543210";
+const defaultProducts = [
+ {id:1,name:"Terracotta Table Vase",category:"Home Decor",price:799,emoji:"🏺",desc:"Earthy handcrafted vase with a warm natural finish.",details:"A charming accent for shelves, consoles and dining tables. Each piece has its own handmade character.",rating:4.9},
+ {id:2,name:"Woven Jute Basket",category:"Home Decor",price:599,emoji:"🧺",desc:"A versatile basket woven from natural jute.",details:"Use it for plants, storage or thoughtful gift hampers. Natural texture makes every basket unique.",rating:4.8},
+ {id:3,name:"Hand-painted Diyas",category:"Festive",price:349,emoji:"🪔",desc:"A set of four colourful festive diyas.",details:"Brighten celebrations and special moments with this hand-painted set of four traditional diyas.",rating:4.9},
+ {id:4,name:"Beaded Keychain",category:"Accessories",price:199,emoji:"🪡",desc:"A cheerful handmade accessory for your keys or bag.",details:"Lightweight, colourful and easy to gift. Small variations make each keychain special.",rating:4.7},
+ {id:5,name:"Embroidered Cushion Cover",category:"Textiles",price:899,emoji:"🧵",desc:"Decorative cushion cover with artisan embroidery.",details:"Add a handcrafted touch to your favourite corner. Cushion insert is not included.",rating:4.8},
+ {id:6,name:"Macramé Wall Hanging",category:"Home Decor",price:1199,emoji:"🪢",desc:"Textured cotton wall art for a cosy space.",details:"Hand-knotted cotton cord wall hanging. Looks lovely above a bed, desk or reading nook.",rating:5.0},
+ {id:7,name:"Decorative Gift Hamper",category:"Gifting",price:1499,emoji:"🎁",desc:"A curated handmade gift set for someone special.",details:"A thoughtful assortment of artisan-made goodies. Contact us on WhatsApp for custom hamper options.",rating:4.9},
+ {id:8,name:"Handmade Bead Earrings",category:"Accessories",price:449,emoji:"📿",desc:"Lightweight statement earrings with artisan detail.",details:"A playful handmade pair for everyday outfits and celebrations.",rating:4.6}
+];
+let products = JSON.parse(localStorage.getItem(STORE_KEY)||"null") || defaultProducts;
+let cart = JSON.parse(localStorage.getItem("mittikaCart")||"[]");
+
+let activeCategory="All";
+let lang="en";
+const guProducts={
+1:{name:"ટેરાકોટા ટેબલ વાસ",desc:"કુદરતી રંગ અને સુંદર ફિનિશ ધરાવતો હાથથી બનાવેલો વાસ.",details:"શેલ્ફ, ટેબલ અને ઘરની સજાવટ માટે સુંદર વાસ. દરેક પીસ હાથથી બનાવેલો હોવાથી થોડો અનોખો છે."},
+2:{name:"હાથથી ગૂંથેલી જ્યુટ ટોપલી",desc:"કુદરતી જ્યુટમાંથી હાથથી ગૂંથેલી ઉપયોગી ટોપલી.",details:"છોડ, સામાન રાખવા અથવા ગિફ્ટ હેમ્પર માટે ઉપયોગી. કુદરતી ટેક્સચર દરેક ટોપલીને ખાસ બનાવે છે."},
+3:{name:"હાથથી રંગેલા દીવા",desc:"ચાર રંગબેરંગી હાથથી રંગેલા તહેવારી દીવાનો સેટ.",details:"હાથથી રંગેલા પરંપરાગત ચાર દીવાનો સેટ તહેવારો અને ખાસ પ્રસંગોને વધુ સુંદર બનાવે છે."},
+4:{name:"મણકાની કીચેન",desc:"ચાવીઓ અથવા બેગ માટે સુંદર હાથથી બનાવેલી કીચેન.",details:"હલકી, રંગીન અને ભેટ આપવા માટે સરસ. દરેક કીચેનમાં હાથકામની નાની અનોખી ખાસિયત છે."},
+5:{name:"ભરતકામવાળું કુશન કવર",desc:"કારીગરના સુંદર ભરતકામથી સજાવેલું કુશન કવર.",details:"તમારા ઘરના મનપસંદ ખૂણાને હાથકામની સુંદરતા આપો. અંદરનું કુશન સામેલ નથી."},
+6:{name:"મેક્રેમે વોલ હેંગિંગ",desc:"ઘરને સુંદર બનાવે તેવી કોટનની હાથથી ગૂંથેલી વોલ ડેકોર.",details:"કોટન દોરીથી હાથથી ગાંઠો મારી બનાવેલું વોલ હેંગિંગ. બેડ, ડેસ્ક અથવા વાંચનના ખૂણે સુંદર લાગે છે."},
+7:{name:"હેન્ડમેડ ગિફ્ટ હેમ્પર",desc:"ખાસ વ્યક્તિ માટે પસંદ કરેલી હાથકામની ભેટનો સેટ.",details:"કારીગરો દ્વારા બનાવેલી સુંદર વસ્તુઓનો ભેટ સેટ. ખાસ હેમ્પર માટે WhatsApp પર સંપર્ક કરો."},
+8:{name:"હાથથી બનાવેલી મણકાની બુટ્ટી",desc:"કારીગરની કારીગરીથી બનેલી હલકી અને આકર્ષક બુટ્ટી.",details:"રોજિંદા પહેરવેશ અને ખાસ પ્રસંગો માટે સુંદર હાથથી બનાવેલી બુટ્ટી."}
+};
+const tr=(en,gu)=>lang==="gu"?gu:en;
+const ptxt=(p,k)=>lang==="gu"?((k==="name"&&p.guName)||(k==="desc"&&p.guDesc)||(k==="details"&&p.guDetails)||((guProducts[p.id]||{})[k])||p[k]):p[k];
+function toggleLanguage(){lang=lang==="en"?"gu":"en";applyLanguage();applyLanguage();
+ if(storeSettings.announcement) document.querySelector(".topbar").textContent=storeSettings.announcement;
+ if(storeSettings.heroTitle) document.querySelector(".hero h1").textContent=storeSettings.heroTitle;
+ if(storeSettings.heroDescription) document.querySelector(".hero p").textContent=storeSettings.heroDescription;
+ renderProducts();renderCart();renderReviews();}
+function applyLanguage(){
+ const set=(sel,en,gu)=>{const el=document.querySelector(sel);if(el)el.innerHTML=tr(en,gu)};
+ document.getElementById("langBtn").textContent=tr("ગુજરાતી","English");
+ document.getElementById("navShop").textContent=tr("Shop","ખરીદી");
+ document.getElementById("navStory").textContent=tr("Our Story","અમારી કહાની");
+ document.getElementById("navReviews").textContent=tr("Reviews","ગ્રાહક અભિપ્રાય");
+ set(".topbar","HANDMADE WITH LOVE · FREE SHIPPING ON ORDERS ABOVE ₹1,499","પ્રેમથી બનાવેલી હસ્તકલા · ₹1,499થી વધુની ખરીદી પર મફત ડિલિવરી");
+ set(".hero .eyebrow","Small-batch · Thoughtfully made","નાની બેચમાં · પ્રેમથી બનાવેલી");
+ set(".hero h1","Made by hand.<br>Made to be loved.","હાથથી બનાવેલું.<br>પ્રેમથી સાચવવા જેવું.");
+ set(".hero p","Discover one-of-a-kind handcrafted pieces that bring warmth, character and a little joy to everyday living.","તમારા રોજિંદા જીવનમાં હૂંફ, સુંદરતા અને આનંદ ઉમેરે તેવી અનોખી હાથથી બનાવેલી વસ્તુઓ શોધો.");
+ set(".hero .cta","EXPLORE THE COLLECTION","અમારી વસ્તુઓ જુઓ");
+ set("#shop .eyebrow","The collection","અમારો સંગ્રહ");
+ set("#shop h2","Find something special","તમારા માટે કંઈક ખાસ પસંદ કરો");
+ set("#shop .sectionhead p","Each piece is made with care. Select a product to see its details.","દરેક વસ્તુ કાળજીથી બનાવવામાં આવી છે. વિગતો જોવા માટે વસ્તુ પસંદ કરો.");
+ set("#story .eyebrow","A little about us","અમારા વિશે");
+ set("#story h2","Crafted slowly.<br>Kept forever.","ધીરજથી બનાવેલું.<br>હંમેશા યાદગાર.");
+ set("#story p","We celebrate the beauty of handmade work — the little variations, the natural textures and the care that goes into every piece. Our collection is designed to make gifting and everyday living feel more personal.","અમે હાથકામની સુંદરતા, કુદરતી ટેક્સચર અને દરેક વસ્તુમાં રહેલી કાળજીની ઉજવણી કરીએ છીએ. અમારી વસ્તુઓ ભેટને અને રોજિંદા જીવનને વધુ ખાસ બનાવે છે.");
+ set("#story .cta","SHOP HANDMADE","હાથકામની વસ્તુઓ ખરીદો");
+ set("#reviews .eyebrow","Kind words","પ્રેમભર્યા અભિપ્રાય");
+ set("#reviews h2","Notes from our customers","અમારા ગ્રાહકોના અભિપ્રાય");
+ set("#reviews .sectionhead p","Reviews appear here after store approval.","ગ્રાહકોના અભિપ્રાય અહીં જોઈ શકાશે.");
+ set(".reviewform h3","Share your experience","તમારો અનુભવ જણાવો");
+ document.querySelectorAll(".reviewform label")[0].textContent=tr("Your name","તમારું નામ");
+ document.querySelectorAll(".reviewform label")[1].textContent=tr("Rating","રેટિંગ");
+ document.querySelectorAll(".reviewform label")[2].textContent=tr("Your review","તમારો અભિપ્રાય");
+ document.getElementById("reviewName").placeholder=tr("Name","નામ");
+ document.getElementById("reviewText").placeholder=tr("What did you think?","તમને વસ્તુ કેવી લાગી?");
+ document.querySelector(".reviewform button").textContent=tr("POST REVIEW","અભિપ્રાય મોકલો");
+ set(".footer > div:nth-child(1) p","Handcrafted with heart, made for your home.","પ્રેમથી બનાવેલી હસ્તકલા, તમારા ઘર માટે.");
+ document.querySelector(".footer > div:nth-child(2) strong").textContent=tr("Need help?","મદદ જોઈએ છે?");
+ set(".footer > div:nth-child(2) p","Order directly on WhatsApp<br>Replace the demo number in the website settings.","WhatsApp પર સીધો ઓર્ડર કરો<br>વેબસાઇટમાં ડેમો નંબર બદલો.");
+}
+
+const money=n=>"₹"+n.toLocaleString("en-IN");
+function saveCart(){localStorage.setItem("mittikaCart",JSON.stringify(cart));renderCart()}
+function renderProducts(){
+ const visibleProducts=products.filter(p=>p.active!==false);
+ const cats=["All",...new Set(visibleProducts.map(p=>p.category))];
+ document.getElementById("filters").innerHTML=cats.map(c=>`<button class="filter ${c===activeCategory?'active':''}" onclick="setCategory('${c}')">${c}</button>`).join("");
+ document.getElementById("products").innerHTML=visibleProducts.filter(p=>activeCategory==="All"||p.category===activeCategory).map(p=>{const productName=ptxt(p,"name");const waText=encodeURIComponent(`Hello! I am interested in ${productName} (Price: ${money(p.price)}). Please share more details.`);const waUrl=`https://wa.me/${WHATSAPP_NUMBER}?text=${waText}`;return `<article class="product"><div class="product-art">${p.image?`<img src="${p.image}" alt="${String(productName).replace(/&/g,"&amp;").replace(/"/g,"&quot;")}">`:p.emoji}</div><h3>${productName}</h3><div class="desc">${ptxt(p,"desc")}</div><div class="stars">★★★★★ <span style="color:#786f64">${Number(p.rating||0).toFixed(1)}</span></div><div class="price">${money(p.price)}</div><div class="product-actions"><button class="smallbtn" onclick="showDetails(${p.id})">${tr("DETAILS","વિગતો")}</button><button class="smallbtn primary" onclick="addToCart(${p.id})">${tr("ADD TO BAG","કાર્ટમાં ઉમેરો")}</button></div><a class="product-wa" href="${waUrl}" target="_blank" rel="noopener" aria-label="Ask about ${productName} on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 .8A15 15 0 0 0 3.1 23.4L1 31l7.8-2A15.1 15.1 0 1 0 16 .8zm0 27.5a12.3 12.3 0 0 1-6.3-1.7l-.5-.3-4.6 1.2 1.2-4.5-.3-.5A12.4 12.4 0 1 1 16 28.3zm6.8-9.3c-.4-.2-2.2-1.1-2.6-1.2-.3-.1-.6-.2-.8.2-.3.4-1 1.2-1.2 1.4-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.2-2.1-2.6-.2-.4 0-.6.2-.8l.6-.7c.2-.2.2-.4.4-.6.1-.2 0-.5 0-.7-.1-.2-.8-2-1.1-2.7-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.6.1-.9.5-.3.4-1.2 1.2-1.2 3s1.2 3.5 1.4 3.7c.2.3 2.4 3.8 5.8 5.2.8.4 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.6.2-1.8-.1-.1-.3-.2-.7-.4z"/></svg>${tr("ORDER ON WHATSAPP","WhatsApp પર ઓર્ડર કરો")}</a></article>`}).join("");
+}
+function setCategory(c){activeCategory=c;renderProducts()}
+function showDetails(id){let p=products.find(x=>x.id===id);document.getElementById("detailContent").innerHTML=`<div class="detail-art">${p.image?`<img src="${p.image}" alt="${ptxt(p,"name")}" style="max-width:100%;max-height:320px;object-fit:contain">`:p.emoji}</div><div class="eyebrow" style="margin-top:20px">${(lang==="gu"?({"Home Decor":"ઘર સજાવટ","Festive":"તહેવાર","Accessories":"એસેસરીઝ","Textiles":"કાપડ","Gifting":"ભેટ"}[p.category]||p.category):p.category)}</div><h2 style="font-weight:normal">${ptxt(p,"name")}</h2><div class="stars">★★★★★ ${p.rating.toFixed(1)} ${tr("customer rating","ગ્રાહક રેટિંગ")}</div><h3>${money(p.price)}</h3><p class="muted">${ptxt(p,"details")}</p><button class="cta" onclick="addToCart(${p.id});closeModal('detailModal')">${tr("ADD TO BAG","કાર્ટમાં ઉમેરો")}</button>`;openModal("detailModal")}
+function addToCart(id){let item=cart.find(x=>x.id===id);if(item)item.qty++;else cart.push({id,qty:1});saveCart();toast("Added to your bag")}
+function changeQty(id,d){let item=cart.find(x=>x.id===id);if(!item)return;item.qty+=d;if(item.qty<=0)cart=cart.filter(x=>x.id!==id);saveCart()}
+function renderCart(){
+ document.getElementById("cartCount").textContent=cart.reduce((s,x)=>s+x.qty,0);
+ let lines=document.getElementById("cartLines");
+ if(!cart.length){lines.innerHTML='<div class="empty">"Your bag is empty. Explore the collection to find something lovely." </div>';document.getElementById("cartTotal").textContent=money(0);document.getElementById("checkoutLink").style.display="none";return}
+ document.getElementById("checkoutLink").style.display="block";
+ lines.innerHTML=cart.map(x=>{let p=products.find(y=>y.id===x.id);return `<div class="cartline"><div><strong>${ptxt(p,"name")}</strong><br>${money(p.price)} × ${x.qty}</div><div class="qty"><button onclick="changeQty(${p.id},-1)">−</button> ${x.qty} <button onclick="changeQty(${p.id},1)">+</button></div></div>`}).join("");
+ let total=cart.reduce((s,x)=>s+products.find(p=>p.id===x.id).price*x.qty,0);
+ document.getElementById("cartTotal").textContent=money(total);
+ let msg="Hello! I would like to place an order:%0A"+cart.map(x=>{let p=products.find(y=>y.id===x.id);return `• ${p.name} x ${x.qty} — ${money(p.price*x.qty)}`}).join("%0A")+`%0A%0ATotal: ${money(total)}%0AName: ${encodeURIComponent(document.getElementById("buyerName").value)}%0ADelivery address: ${encodeURIComponent(document.getElementById("buyerAddress").value)}`;
+ document.getElementById("checkoutLink").href=`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
+ document.getElementById("checkoutLink").onclick=()=>{const orders=JSON.parse(localStorage.getItem(ORDERS_KEY)||"[]");const order={id:"MTK-"+Date.now(),createdAt:new Date().toISOString(),customer:document.getElementById("buyerName").value||"Not provided",address:document.getElementById("buyerAddress").value||"Not provided",items:cart.map(x=>{const p=products.find(y=>y.id===x.id);return {id:p.id,name:p.name,price:p.price,qty:x.qty}}),total,status:"New"};orders.unshift(order);localStorage.setItem(ORDERS_KEY,JSON.stringify(orders));};
+}
+function openCart(){renderCart();openModal("cartModal")}
+function openModal(id){document.getElementById(id).classList.add("show")}
+function closeModal(id){document.getElementById(id).classList.remove("show")}
+function toast(msg){let t=document.getElementById("toast");t.textContent=msg;t.style.opacity=1;setTimeout(()=>t.style.opacity=0,1700)}
+const initialReviews=[];
+function getReviews(){return JSON.parse(localStorage.getItem(REVIEWS_KEY)||"[]")}
+function renderReviews(){document.getElementById("reviewList").innerHTML=getReviews().filter(r=>r.status==="approved").map(r=>`<article class="review"><div class="stars">${"★".repeat(r.rating)}${"☆".repeat(5-r.rating)}</div><p>“${escapeHtml(r.text)}”</p><strong>${escapeHtml(r.name)}</strong></article>`).join("")}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+document.getElementById("reviewForm").addEventListener("submit",e=>{e.preventDefault();let reviews=getReviews();reviews.unshift({id:Date.now(),name:document.getElementById("reviewName").value,rating:+document.getElementById("reviewRating").value,text:document.getElementById("reviewText").value,status:"pending",createdAt:new Date().toISOString()});localStorage.setItem("mittikaReviews",JSON.stringify(reviews));e.target.reset();renderReviews();toast("Thanks! Your review will appear after approval.")});
+document.getElementById("buyerName").addEventListener("input",renderCart);document.getElementById("buyerAddress").addEventListener("input",renderCart);
+applyLanguage();
+ if(storeSettings.announcement) document.querySelector(".topbar").textContent=storeSettings.announcement;
+ if(storeSettings.heroTitle) document.querySelector(".hero h1").textContent=storeSettings.heroTitle;
+ if(storeSettings.heroDescription) document.querySelector(".hero p").textContent=storeSettings.heroDescription;
+ renderProducts();renderCart();renderReviews();
+</script>
+<div id="toast" style="position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#302b25;color:white;padding:12px 20px;font:13px Arial,sans-serif;opacity:0;transition:opacity .2s;pointer-events:none;z-index:20"></div>
+</body></html>
